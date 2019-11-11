@@ -1,0 +1,6 @@
+﻿<columns units="px">
+  <column name="Name" type="Text" format="G" nulltext="-" alignment="Right" />
+  <column name="Age" type="Number" format="G" nulltext="-" alignment="Right" />
+  <column name="PhoenNumber" type="Text" format="G" nulltext="-" alignment="Right" />
+  <column name="Email" type="Text" />
+</columns>
