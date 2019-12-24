@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{48CEEA2C-01E4-43ED-B259-68A2E98CA2B4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Test.cs" />
+    <None Include="CH0703.cs" />
+    <None Include="CH0702.cs" />
+    <None Include="CH0505.cs" />
+    <None Include="packages.config" />
+    <None Include="CH0501.cs" />
+    <None Include="CH0502.cs" />
+    <None Include="CH0503.cs" />
+    <None Include="CH0504.cs" />
+    <None Include="CH0506.cs" />
+    <None Include="CH0704.cs" />
+    <None Include="CH0705.cs" />
+    <None Include="CH0706.cs" />
+    <None Include="CH0707.cs" />
+    <None Include="CH0708.cs" />
+    <None Include="CH0709.cs" />
+    <None Include="CH0710.cs" />
+    <None Include="CH03.cs" />
+    <None Include="CH0711.cs" />
+    <None Include="CH0801.cs" />
+    <None Include="CH0802.cs" />
+    <None Include="CH0803.cs" />
+    <None Include="CH0804.cs" />
+    <None Include="CH0901.cs" />
+    <None Include="CH1001.cs" />
+    <None Include="CH1002.cs" />
+    <None Include="CH1003.cs" />
+    <None Include="CH1004.cs" />
+    <None Include="CH1005.cs" />
+    <None Include="CH1006.cs" />
+    <None Include="CH1101.cs" />
+    <None Include="CH1103.cs" />
+    <None Include="CH1104.cs" />
+    <None Include="CH1105.cs" />
+    <None Include="CH1106%28큐%29.cs" />
+    <None Include="CH1102.cs" />
+    <None Include="CH1107%28스택%29.cs" />
+    <None Include="CH1108%28해시테이블%29.cs" />
+    <None Include="CH1200%28연결리스트%29.cs" />
+    <None Include="CH1202%28이진탐색트리%29.cs" />
+    <Compile Include="CH1201%28트리%29.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
